@@ -1,5 +1,9 @@
 # evo 
-
+***
++ save plot as .svg: evo_traj bag ./circle/circle.bag --all_topics --ref /gt_pose --plot --plot_mode xyz **--save_plot [file name].svg**
++ show configuration: evo_config show
+***
+<br>
 ***Python package for the evaluation of odometry and SLAM***
 
 | Linux / macOS / Windows / ROS |
