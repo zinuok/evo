@@ -3,7 +3,7 @@
 + save plot as .svg: evo_traj bag ./circle/circle.bag --all_topics --ref /gt_pose --plot --plot_mode xyz **--save_plot [file name].svg**
 + show configuration: evo_config show
 + graph style(seaborn): evo_config set plot_seaborn_style [style]
-++ [style] ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail
++https://github.com/zinuok [style] ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail
 ***
 <br>
 ***Python package for the evaluation of odometry and SLAM***
