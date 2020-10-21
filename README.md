@@ -1,6 +1,7 @@
 # evo 
 ***
-
+evo is a Python package for evaluating odometry and SLAM for drawing trajectory and calculating errors like APE, RPE. <br>
+This repository explains how to customize the evo graph.
 ***
 
 # Index
