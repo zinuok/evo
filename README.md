@@ -5,7 +5,7 @@
 + graph style(seaborn): evo_config set plot_seaborn_style [style]
 +https://github.com/zinuok [style] ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail
 ***
-<br>
+
 ***Python package for the evaluation of odometry and SLAM***
 
 | Linux / macOS / Windows / ROS |
