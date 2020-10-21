@@ -12,8 +12,7 @@ This repository explains how to customize the evo graph.
 ## 1. Custom modification
 + save plot as .svg: evo_traj bag ./circle/circle.bag --all_topics --ref /gt_pose --plot --plot_mode xyz **--save_plot [file name].svg**
 + show configuration: evo_config show
-+ graph style(seaborn): evo_config set plot_seaborn_style [style]
-+ https://github.com/zinuok [style] ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail
++ graph style(seaborn): evo_config set plot_seaborn_style [style] ([style] ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail)
 <br><br>
 
 ## 2. Original Description
