@@ -10,6 +10,13 @@ This repository explains how to customize the evo graph.
 <br><br>
 
 ## 1. Custom modification
+Before starting evo with custom modification, you have to install 'evo' from source:
+```
+$ git clone https://github.com/MichaelGrupp/evo.git
+$ cd ~/evo
+$ pip3 install --editable . --upgrade --no-binary evo
+```
+notice that 'pip3', not pip
 + save plot as .svg: evo_traj bag ./circle/circle.bag --all_topics --ref /gt_pose --plot --plot_mode xyz **--save_plot [file name].svg**
 + show configuration: evo_config show
 + graph style(seaborn): evo_config set plot_seaborn_style [style] ( ∈ {whitegird, darkgrid, white, dark, ticks}  refer [here](http://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles) for detail)
