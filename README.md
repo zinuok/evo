@@ -12,7 +12,7 @@ This repository explains how to customize the evo graph.
 ## 1. Custom modification
 Before starting evo with custom modification, you have to install 'evo ver. 1.12.0' from source:
 ```
-$ git clone https://github.com/MichaelGrupp/evo/tree/v1.12.0
+$ git clone -b v1.12.0 https://github.com/MichaelGrupp/evo.git
 $ cd ~/evo
 $ pip install --editable . --upgrade --no-binary evo
 ```
